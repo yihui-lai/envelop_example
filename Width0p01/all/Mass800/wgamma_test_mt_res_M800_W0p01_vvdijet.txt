@@ -1,0 +1,104 @@
+imax 6 number of bins
+jmax * number of backgrounds
+kmax * number of nuisance parameters
+----------------------------------------------------------------------------------------------------
+shapes Resonance mu2016 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/signal/workspace_signal_M800_W0p01_mu2016.root workspace_signal_M800_W0p01_mu2016:$PROCESS
+shapes Resonance el2016 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/signal/workspace_signal_M800_W0p01_el2016.root workspace_signal_M800_W0p01_el2016:$PROCESS
+shapes Resonance mu2017 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/signal/workspace_signal_M800_W0p01_mu2017.root workspace_signal_M800_W0p01_mu2017:$PROCESS
+shapes Resonance el2017 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/signal/workspace_signal_M800_W0p01_el2017.root workspace_signal_M800_W0p01_el2017:$PROCESS
+shapes Resonance mu2018 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/signal/workspace_signal_M800_W0p01_mu2018.root workspace_signal_M800_W0p01_mu2018:$PROCESS
+shapes Resonance el2018 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/signal/workspace_signal_M800_W0p01_el2018.root workspace_signal_M800_W0p01_el2018:$PROCESS
+shapes All mu2016 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/All/mu2016workspace_all.root workspace_all:MultiPdf_muA2016_all_MultiPdf
+shapes All el2016 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/All/el2016workspace_all.root workspace_all:MultiPdf_elA2016_all_MultiPdf
+shapes All mu2017 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/All/mu2017workspace_all.root workspace_all:MultiPdf_muA2017_all_MultiPdf
+shapes All el2017 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/All/el2017workspace_all.root workspace_all:MultiPdf_elA2017_all_MultiPdf
+shapes All mu2018 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/All/mu2018workspace_all.root workspace_all:MultiPdf_muA2018_all_MultiPdf
+shapes All el2018 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/All/el2018workspace_all.root workspace_all:MultiPdf_elA2018_all_MultiPdf
+shapes data_obs mu2016 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/bkgfit_data/2016/workspace_all.root workspace_all:data_muA2016_mt_res_base
+shapes data_obs el2016 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/bkgfit_data/2016/workspace_all.root workspace_all:data_elA2016_mt_res_base
+shapes data_obs mu2017 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/bkgfit_data/2017/workspace_all.root workspace_all:data_muA2017_mt_res_base
+shapes data_obs el2017 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/bkgfit_data/2017/workspace_all.root workspace_all:data_elA2017_mt_res_base
+shapes data_obs mu2018 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/bkgfit_data/2018/workspace_all.root workspace_all:data_muA2018_mt_res_base
+shapes data_obs el2018 /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/bkgfit_data/2018/workspace_all.root workspace_all:data_elA2018_mt_res_base
+----------------------------------------------------------------------------------------------------
+bin          mu2016        el2016        mu2017        el2017        mu2018        el2018        
+observation  -1            -1            -1            -1            -1            -1            
+----------------------------------------------------------------------------------------------------
+bin         mu2016        mu2016        el2016        el2016        mu2017        mu2017        el2017        el2017        mu2018        mu2018        el2018        el2018        
+process     Resonance     All           Resonance     All           Resonance     All           Resonance     All           Resonance     All           Resonance     All           
+process     0             1             0             1             0             1             0             1             0             1             0             1             
+rate        10.2961       2216          9.25178       1835          11.5789       2898          10.1559       2752          17.3908       4181          15.4338       4149          
+----------------------------------------------------------------------------------------------------
+atlas_order1_elA2016_all_atlas  flatParam
+atlas_order2_elA2016_all_atlas  flatParam
+atlas_order3_elA2016_all_atlas  flatParam
+dijet_order1_elA2016_all_dijet  flatParam
+dijet_order2_elA2016_all_dijet  flatParam
+vvdijet_order1_elA2016_all_vvdijet  flatParam
+vvdijet_order2_elA2016_all_vvdijet  flatParam
+vvdijet_order3_elA2016_all_vvdijet  flatParam
+atlas_order1_elA2017_all_atlas  flatParam
+atlas_order2_elA2017_all_atlas  flatParam
+atlas_order3_elA2017_all_atlas  flatParam
+dijet_order1_elA2017_all_dijet  flatParam
+dijet_order2_elA2017_all_dijet  flatParam
+vvdijet_order1_elA2017_all_vvdijet  flatParam
+vvdijet_order2_elA2017_all_vvdijet  flatParam
+vvdijet_order3_elA2017_all_vvdijet  flatParam
+atlas_order1_elA2018_all_atlas  flatParam
+atlas_order2_elA2018_all_atlas  flatParam
+atlas_order3_elA2018_all_atlas  flatParam
+dijet_order1_elA2018_all_dijet  flatParam
+dijet_order2_elA2018_all_dijet  flatParam
+vvdijet_order1_elA2018_all_vvdijet  flatParam
+vvdijet_order2_elA2018_all_vvdijet  flatParam
+vvdijet_order3_elA2018_all_vvdijet  flatParam
+atlas_order1_muA2016_all_atlas  flatParam
+atlas_order2_muA2016_all_atlas  flatParam
+atlas_order3_muA2016_all_atlas  flatParam
+dijet_order1_muA2016_all_dijet  flatParam
+dijet_order2_muA2016_all_dijet  flatParam
+vvdijet_order1_muA2016_all_vvdijet  flatParam
+vvdijet_order2_muA2016_all_vvdijet  flatParam
+vvdijet_order3_muA2016_all_vvdijet  flatParam
+atlas_order1_muA2017_all_atlas  flatParam
+atlas_order2_muA2017_all_atlas  flatParam
+atlas_order3_muA2017_all_atlas  flatParam
+dijet_order1_muA2017_all_dijet  flatParam
+dijet_order2_muA2017_all_dijet  flatParam
+vvdijet_order1_muA2017_all_vvdijet  flatParam
+vvdijet_order2_muA2017_all_vvdijet  flatParam
+vvdijet_order3_muA2017_all_vvdijet  flatParam
+atlas_order1_muA2018_all_atlas  flatParam
+atlas_order2_muA2018_all_atlas  flatParam
+atlas_order3_muA2018_all_atlas  flatParam
+dijet_order1_muA2018_all_dijet  flatParam
+dijet_order2_muA2018_all_dijet  flatParam
+vvdijet_order1_muA2018_all_vvdijet  flatParam
+vvdijet_order2_muA2018_all_vvdijet  flatParam
+vvdijet_order3_muA2018_all_vvdijet  flatParam
+pdf_index_elA2016                             discrete
+pdf_index_elA2017                             discrete
+pdf_index_elA2018                             discrete
+pdf_index_muA2016                             discrete
+pdf_index_muA2017                             discrete
+pdf_index_muA2018                             discrete
+cb_cut1_MG_M800_W0p01_mu2016 param 0.34630 0.00003
+cb_mass_MG_M800_W0p01_mu2016 param 781.84826 1.01763
+cb_sigma_MG_M800_W0p01_mu2016 param 24.21638 0.00242
+cb_cut1_MG_M800_W0p01_el2016 param 0.40086 0.00004
+cb_mass_MG_M800_W0p01_el2016 param 781.54471 1.01763
+cb_sigma_MG_M800_W0p01_el2016 param 24.29672 0.00243
+cb_cut1_MG_M800_W0p01_mu2017 param 0.41165 0.00004
+cb_mass_MG_M800_W0p01_mu2017 param 781.60207 1.01763
+cb_sigma_MG_M800_W0p01_mu2017 param 29.94948 0.00299
+cb_cut1_MG_M800_W0p01_el2017 param 0.44453 0.00004
+cb_mass_MG_M800_W0p01_el2017 param 782.11390 1.01763
+cb_sigma_MG_M800_W0p01_el2017 param 28.61922 0.00286
+cb_cut1_MG_M800_W0p01_mu2018 param 0.35461 0.00004
+cb_mass_MG_M800_W0p01_mu2018 param 783.66058 1.01764
+cb_sigma_MG_M800_W0p01_mu2018 param 27.01565 0.00270
+cb_cut1_MG_M800_W0p01_el2018 param 0.44310 0.00004
+cb_mass_MG_M800_W0p01_el2018 param 781.82738 1.01763
+cb_sigma_MG_M800_W0p01_el2018 param 28.02866 0.00280
+----------------------------------------------------------------------------------------------------

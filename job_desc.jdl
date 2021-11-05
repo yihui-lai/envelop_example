@@ -1,0 +1,233 @@
+universe = vanilla
+# This is the executable to run.  If a script,
+# be sure to mark it "#!<path to interp>" on the first line.
+# Filename for stdout, otherwise it is lost
+# Copy the submittor environment variables
+getenv = True
+# Require to run on SL/CentOS7
+Requirements = (TARGET.OpSysMajorVer == 7)
+when_to_transfer_output = ON_EXIT_OR_EVICT
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1400/run_combine_M1400_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1400/run_combine_M1400_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1400/run_combine_M1400_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1400/run_combine_M1400_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass2000/run_combine_M2000_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass2000/run_combine_M2000_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass2000/run_combine_M2000_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass2000/run_combine_M2000_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass900/run_combine_M900_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass900/run_combine_M900_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass900/run_combine_M900_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass900/run_combine_M900_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass2000/run_combine_M2000_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass2000/run_combine_M2000_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass2000/run_combine_M2000_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass2000/run_combine_M2000_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass350/run_combine_M350_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass350/run_combine_M350_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass350/run_combine_M350_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass350/run_combine_M350_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1600/run_combine_M1600_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1600/run_combine_M1600_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1600/run_combine_M1600_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1600/run_combine_M1600_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass800/run_combine_M800_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass800/run_combine_M800_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass800/run_combine_M800_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass800/run_combine_M800_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass450/run_combine_M450_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass450/run_combine_M450_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass450/run_combine_M450_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass450/run_combine_M450_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1000/run_combine_M1000_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1000/run_combine_M1000_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1000/run_combine_M1000_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1000/run_combine_M1000_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass900/run_combine_M900_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass900/run_combine_M900_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass900/run_combine_M900_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass900/run_combine_M900_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass300/run_combine_M300_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass300/run_combine_M300_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass300/run_combine_M300_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass300/run_combine_M300_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass300/run_combine_M300_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass300/run_combine_M300_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass300/run_combine_M300_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass300/run_combine_M300_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1200/run_combine_M1200_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1200/run_combine_M1200_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1200/run_combine_M1200_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1200/run_combine_M1200_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass700/run_combine_M700_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass700/run_combine_M700_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass700/run_combine_M700_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass700/run_combine_M700_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1600/run_combine_M1600_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1600/run_combine_M1600_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1600/run_combine_M1600_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1600/run_combine_M1600_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1400/run_combine_M1400_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1400/run_combine_M1400_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1400/run_combine_M1400_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1400/run_combine_M1400_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass800/run_combine_M800_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass800/run_combine_M800_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass800/run_combine_M800_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass800/run_combine_M800_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass600/run_combine_M600_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass600/run_combine_M600_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass600/run_combine_M600_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass600/run_combine_M600_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass400/run_combine_M400_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass400/run_combine_M400_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass400/run_combine_M400_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass400/run_combine_M400_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1200/run_combine_M1200_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1200/run_combine_M1200_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1200/run_combine_M1200_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1200/run_combine_M1200_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass600/run_combine_M600_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass600/run_combine_M600_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass600/run_combine_M600_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass600/run_combine_M600_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1800/run_combine_M1800_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1800/run_combine_M1800_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1800/run_combine_M1800_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1800/run_combine_M1800_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1800/run_combine_M1800_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1800/run_combine_M1800_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1800/run_combine_M1800_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass1800/run_combine_M1800_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass400/run_combine_M400_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass400/run_combine_M400_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass400/run_combine_M400_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass400/run_combine_M400_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass700/run_combine_M700_W5_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass700/run_combine_M700_W5_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass700/run_combine_M700_W5_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width5/all/Mass700/run_combine_M700_W5_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass350/run_combine_M350_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass350/run_combine_M350_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass350/run_combine_M350_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass350/run_combine_M350_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1000/run_combine_M1000_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1000/run_combine_M1000_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1000/run_combine_M1000_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass1000/run_combine_M1000_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
+output = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass450/run_combine_M450_W0p01_all_out.txt
+error = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass450/run_combine_M450_W0p01_all_err.txt
+log = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass450/run_combine_M450_W0p01_all_log.txt
+Executable = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs/Width0p01/all/Mass450/run_combine_M450_W0p01_all.sh
+Initialdir = /data/users/yihuilai/test_code/WG_Analysis/Plotting/data/higgs
+# This is the argument line to the Executable
+# Queue job
+queue
